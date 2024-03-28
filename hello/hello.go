@@ -8,8 +8,8 @@ import (
 )
 
 func main() {
-	message, err := greetings.Hello("Gladys")
-	if err {
+	message, err := greetings.Hello("akash")
+	if err != nil {
 		log.Fatal(err)
 	}
 	fmt.Println(message)
